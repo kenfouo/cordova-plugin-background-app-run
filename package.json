@@ -1,0 +1,42 @@
+{
+  "name": "cordova-plugin-background-app-run",
+  "version": "0.0.5",
+  "description": "Cordova plugin to run app in background with foreground services, WorkManager, and Picture-in-Picture support",
+  "main": "www/backgroundAppRun.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "cordova": {
+    "id": "backgroundapprun",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "background",
+    "foreground-service",
+    "workmanager",
+    "picture-in-picture",
+    "pip"
+  ],
+  "author": "SAGNIK",
+  "license": "ISC",
+  "engines": {
+    "cordovaDependencies": {
+      "0.0.4": {
+        "cordova": ">=9.0.0",
+        "cordova-android": ">=9.0.0"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Management-AND-Computer-Consultants/background-app-run-for-fusion-and-service-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Management-AND-Computer-Consultants/background-app-run-for-fusion-and-service-app/issues"
+  },
+  "homepage": "https://github.com/Management-AND-Computer-Consultants/background-app-run-for-fusion-and-service-app#readme"
+}
