@@ -69,7 +69,7 @@ public class backgroundAppRun extends CordovaPlugin {
       }
       callbackContext.success("Background service started.");
 
-      enterPictureInPicture(callbackContext);
+      //enterPictureInPicture(callbackContext);  //---commenté car le pip est declanché lorsqu'on publie un statut.
 
       return true;
     } else if ("startMakeSoundBackgroundService".equals(action)) {
